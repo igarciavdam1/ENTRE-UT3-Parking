@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DemoParking
+comment0.text=\r\n\ \ Clase\ DemoParking\ para\ testear\ la\ clase\ Parking\r\n\ \ \r\n\ \ \r\n
+comment1.params=
+comment1.target=DemoParking()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ DemoParking\r\n
+comment2.params=
+comment2.target=void\ iniciar()
+comment2.text=\r\n\ \ \ \r\n\ simular\ varias\ entradas\ y\ salidas\ del\ parking\r\n\ en\ diferentes\ d\u00EDas\ y\ con\ diferentes\ tarifas\ y\r\n\ c\u00E1lculo\ del\ importe\ a\ pagar\ por\ los\ clientes\r\n
+comment3.params=tiposTarifa\ horasEntrada\ horasSalida\ dias
+comment3.target=void\ simularFacturacionClientes(char[],\ int[],\ int[],\ int[])
+comment3.text=\r\n\ \r\n
+comment4.params=
+comment4.target=void\ mostrarEstadisticas()
+comment4.text=\r\n\ Muestra\ estad\u00EDsticas\ del\ parking\r\n
+comment5.params=
+comment5.target=void\ pausa()
+comment5.text=\r\n\ \ hacer\ una\ pausa\r\n
+numComments=6

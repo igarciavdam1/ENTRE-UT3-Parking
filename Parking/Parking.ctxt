@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Parking
+comment0.text=\r\n\ La\ clase\ representa\ a\ un\ parking\ de\ una\ ciudad\ europea\r\n\ que\ dispone\ de\ dos\ tarifas\ de\ aparcamiento\ para\ los\ clientes\r\n\ que\ lo\ usen\:\ la\ tarifa\ regular\ (que\ incluye\ una\ tarifa\ plana\ para\r\n\ entradas\ "tempranas")\ y\ la\ tarifa\ comercial\ para\ clientes\ que\ trabajan\r\n\ cerca\ del\ parking,\ aparcan\ un\ n\u00BA\ elevado\ de\ horas\ y\ se\ benefician\ de\ esta\ \r\n\ tarifa\ m\u00E1s\ econ\u00F3mica\r\n\ (leer\ enunciado)\r\n\ \r\n\ @author-Irati\ Garcia\r\n
+comment1.params=queNombre
+comment1.target=Parking(java.lang.String)
+comment1.text=\r\n\ Inicializa\ el\ parking\ con\ el\ nombre\ indicada\ por\ el\ par\u00E1metro.\r\n\ El\ resto\ de\ atributos\ se\ inicializan\ a\ 0\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ accesor\ para\ el\ nombre\ del\ parking\r\n\ \ \r\n
+comment3.params=nuevoNombre
+comment3.target=void\ insertarNombre(java.lang.String)
+comment3.text=\r\n\ mutador\ para\ el\ nombre\ del\ parking\r\n\ \ \r\n
+comment4.params=tipoTarifa\ entrada\ salida\ dia
+comment4.target=void\ facturarCliente(char,\ int,\ int,\ int)
+comment4.text=\r\n\ \ Recibe\ cuatro\ par\u00E1metros\ que\ supondremos\ correctos\:\r\n\ \ \ \ tipoTarifa\ -\ un\ car\u00E1cter\ 'R'\ o\ 'C'\r\n\ \ \ \ entrada\ -\ hora\ de\ entrada\ al\ parking\r\n\ \ \ \ salida\ \u2013\ hora\ de\ salida\ del\ parking\r\n\ \ \ \ dia\ \u2013\ n\u00BA\ de\ d\u00EDa\ de\ la\ semana\ (un\ valor\ entre\ 1\ y\ 7)\r\n\ \ \ \ \r\n\ \ \ \ A\ partir\ de\ estos\ par\u00E1metros\ el\ m\u00E9todo\ debe\ calcular\ el\ importe\r\n\ \ \ \ a\ pagar\ por\ el\ cliente\ y\ mostrarlo\ en\ pantalla\ \r\n\ \ \ \ y\ \ actualizar\u00E1\ adecuadamente\ el\ resto\ de\ atributos\r\n\ \ \ \ del\ parking\ para\ poder\ mostrar\ posteriormente\ (en\ otro\ m\u00E9todo)\ las\ estad\u00EDsticas\r\n\ \ \ \r\n\ \ \ \ Por\ simplicidad\ consideraremos\ que\ un\ cliente\ entra\ y\ sale\ en\ un\ mismo\ d\u00EDa\r\n\ \ \ \ \r\n\ \ \ \ (leer\ enunciado\ del\ ejercicio)\r\n
+comment5.params=
+comment5.target=void\ printEstad\u00EDsticas()
+comment5.text=\r\n\ Muestra\ en\ pantalla\ las\ estad\u00EDsticcas\ sobre\ el\ parking\ \ \r\n\ \ \ \r\n\ (leer\ enunciado)\r\n\ \ \r\n
+comment6.params=
+comment6.target=java.lang.String\ diaMayorNumeroClientes()
+comment6.text=\r\n\ \ Calcula\ y\ devuelve\ un\ String\ que\ representa\ el\ nombre\ del\ d\u00EDa\r\n\ \ en\ el\ que\ m\u00E1s\ clientes\ han\ utilizado\ el\ parking\ -\ "S\u00C1BADO"\ \ \ "DOMINGO"\ o\ \ "LUNES"\r\n
+numComments=7
